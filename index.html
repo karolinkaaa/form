@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <main>
+    <h2>Tinga hund</h2>
+    <div class="container">
+      <form action="https://httpbin.org/anything" method="post">
+        <div class="förNamn">
+          <label for="Förnamn">Förnamn</label>
+          <input id="förNamn" name="förNamn" type="text" />
+        </div>
+        <div class="efterNamn">
+          <label for="efterNamn">Efternamn</label>
+          <input id="efterNamn" name="efterNamn" type="text" />
+        </div>
+        <div class="mail">
+            <label for="mail">Mail adress</label>
+            <input id="mail" name="mail" type="mail" />
+          </div>
+        <div class="lösenord">
+          <label for="lösenord">Lösenord</label>
+          <input id="lösenord" name="lösenord" type="lösenord" />
+        </div>
+        <div class="meddelande">
+          <label for="msg">Meddelande</label>
+          <textarea id="msg" name="meddelande"></textarea>
+        </div>
+        <div class="djurtyp">
+          <label for="djurtyp">Vilken storlek på hund önskar du?</label>
+          <select name="djurtyp" id="djurtyp">
+            <option value="välj">Välj önskad storlek</option>
+            <option value="1pers">Liten</option>
+            <option value="2pers">Mellan</option>
+            <option value="3pers">Stor</option>
+          </select>
+        </div>
+        <fieldset class="radioButtons">
+            <legend>Önskas en hona eller hane?</legend>
+            <label
+              ><input
+                id="hona"
+                type="radio"
+                name="kön"
+                value="hona"
+                checked
+              />
+              Hona</label
+            >
+            <label
+              ><input
+                id="hane"
+                type="radio"
+                name="kön"
+                value="hane"
+              />
+              Hane</label
+            >
+          </fieldset>
+          
+        </form>
+      </section>
+        <div class="send">
+          <button type="submit">Skicka</button>
+        </div>
+      </form>
+    </div>
+</main>
+  </body>
+</html>

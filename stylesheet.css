@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(239, 148, 240);
+  background-image: url(images/pets-3715733_1280.jpg);
+}
+.container form {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 50px;
+}
+.send {
+  grid-column: 1;
+  padding: 20px;
+}
+.email {
+  grid-column: 1;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+select {
+  appearance: none;
+}
+.message {
+  grid-column: span 2;
+}
+
+textarea {
+  height: 200px;
+}
+.radioButtons {
+  background-color: white;
+  border-radius: 10px;
+}
+button {
+  height: 40px;
+  width: 60px;
+  font-size: 1rem;
+  background-color: rgb(239, 148, 240);
+  border-radius: 6px;
+}
